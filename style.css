@@ -1,0 +1,19 @@
+.rock {
+  position: absolute;
+  background-color: #BBBBBB;
+  width: 5vh;
+  height: 5vh;
+}
+
+#generate-map {
+  position: absolute;
+  background-color: green;
+  right: 8vw;
+  top: 40vh;
+  border-radius: 1vh;
+  border: none;
+  color: whitesmoke;
+  font-size: x-large;
+  width: 15vw;
+  height: 20vh;
+}
