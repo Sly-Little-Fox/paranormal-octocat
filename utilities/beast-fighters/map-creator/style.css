@@ -1,6 +1,6 @@
-.rock {
+.block {
   position: absolute;
-  background-color: #BBBBBB;
+  background-color: rgb(77, 54, 58);
   width: 5vh;
   height: 5vh;
 }
