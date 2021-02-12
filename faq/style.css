@@ -15,15 +15,12 @@ body {
 }
 
 section {
-  min-height: 29vh;
-  padding: 0px;
+  background: whitesmoke;
+  padding: 5vh;
   width: auto;
   left: 0px;
   right: 0px;
-}
-
-section:not(.paranormal-section) {
-  background: rgba(236, 236, 236, 0.171);
+  margin-top: 1vh;
 }
 
 #paranormal-svg {
@@ -36,15 +33,10 @@ section:not(.paranormal-section) {
   transform: translateY(-200%) translateX(60vh);
 }
 
-/* img {
-  position: absolute;
-  max-height: 40vh;
+#paranormal-section {
+  align-items: center;
+}
+
+/* section:not([data-first]) {
+  margin-top: 5vh;
 } */
-
-img[data-left] {
-  left: 0px;
-}
-
-img[data-right] {
-  right: 0px;
-}
