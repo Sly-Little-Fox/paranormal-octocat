@@ -12,7 +12,7 @@
 //     "mode": "cors"
 // });
 if (location.hostname !== 'localhost') {
-  fetch('https://api.keyvalue.xyz/bcfbd13e/paranormal'. {
+  fetch('https://api.keyvalue.xyz/bcfbd13e/paranormal', {
     mode: 'cors'
   }).then(response => response.text()).then((views) => {
     fetch(`https://api.keyvalue.xyz/bcfbd13e/paranormal/${Number(views) + 1}`, {

@@ -26,6 +26,10 @@ section:not(.paranormal-section) {
   background: rgba(236, 236, 236, 0.171);
 }
 
+*[data-inline] {
+  display: inline-block;
+}
+
 #paranormal-svg {
   display: inline-block;
   transform: translateX(60vh);
@@ -41,10 +45,10 @@ section:not(.paranormal-section) {
   max-height: 40vh;
 } */
 
-img[data-left] {
+/* img[data-left] {
   left: 0px;
 }
 
 img[data-right] {
   right: 0px;
-}
+} */
