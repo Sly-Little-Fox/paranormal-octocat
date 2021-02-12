@@ -1,3 +1,46 @@
+/* 
+#back {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  margin-bottom: 100vh;
+  background: linear-gradient(to bottom, #b122e5, #be2763);
+  z-index: -1; */
+/* } */
+
 body {
+  height: fit-content;
+  background: linear-gradient(to bottom, #b122e5, #be2763);
   font-family: 'Nunito', sans-serif;
 }
+
+html {
+  scrollbar-color: whitesmoke #b122e5;
+}
+
+section {
+  background: whitesmoke;
+  padding: 5vh;
+  width: auto;
+  left: 0px;
+  right: 0px;
+  margin-top: 1vh;
+}
+
+#paranormal-svg {
+  display: inline-block;
+  transform: translateX(60vh);
+}
+
+#paranormal-h1 {
+  display: inline-block;
+  transform: translateY(-200%) translateX(60vh);
+}
+
+#paranormal-section {
+  align-items: center;
+}
+
+/* section:not([data-first]) {
+  margin-top: 5vh;
+} */
